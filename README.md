@@ -1,4 +1,4 @@
-# 🖱️ Gesture-Controlled Mouse (Arduino + MPU6050 + TensorFlow Lite Micro)
+#  Gesture-Controlled Mouse (Arduino + MPU6050 + TensorFlow Lite Micro)
 
 ##  Overview
 This project implements a **gesture-controlled mouse** using an Arduino Uno, an MPU-6050 motion sensor, and a TensorFlow Lite Micro model.  
