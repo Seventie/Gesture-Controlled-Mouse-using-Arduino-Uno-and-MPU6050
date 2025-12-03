@@ -21,3 +21,6 @@ The Arduino reads IMU values, predicts the gesture, and sends it to a Python scr
 
 ##  Summary
 A complete end-to-end ML + embedded systems project that turns hand motions into actual mouse movements using Arduino, MPU6050, and TensorFlow Lite Micro.
+
+## Usage 
+Please extract the zip file to proceed further .
