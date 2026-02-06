@@ -1,0 +1,24 @@
+# Build artifacts
+*.exe
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Model files (large binary files)
+*.h5
+
+# Pickle files
+*.pkl
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
