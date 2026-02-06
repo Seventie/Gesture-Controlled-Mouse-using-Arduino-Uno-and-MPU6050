@@ -1,31 +1,3 @@
-<<<<<<< HEAD
-#  Gesture-Controlled Mouse (Arduino + MPU6050 + TensorFlow Lite Micro)
-
-##  Overview
-This project implements a **gesture-controlled mouse** using an Arduino Uno, an MPU-6050 motion sensor, and a TensorFlow Lite Micro model.  
-I recorded my own gesture data (left, right, up, down, click), trained a lightweight ML model, converted it into a `.h` file, and deployed it on the Arduino for real-time classification.  
-The Arduino reads IMU values, predicts the gesture, and sends it to a Python script that moves the mouse on the computer.
-
-##  Features
-- Real-time gesture recognition using MPU6050  
-- TensorFlow Lite Micro model running directly on Arduino  
-- Predicts Left, Right, Up, Down, and Click gestures  
-- Python script converts predictions into mouse movement  
-- Fully custom dataset recorded and trained by me  
-
-##  Workflow
-1. Record IMU gesture samples  
-2. Train TensorFlow model  
-3. Convert to TFLite → `.h`  
-4. Upload Arduino sketch  
-5. Run Python script for mouse control  
-
-##  Summary
-A complete end-to-end ML + embedded systems project that turns hand motions into actual mouse movements using Arduino, MPU6050, and TensorFlow Lite Micro.
-
-## Usage 
-Please extract the zip file to proceed further .
-=======
 # Gesture-Controlled Mouse using Arduino/ESP32 and MPU6050
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -34,23 +6,44 @@ Please extract the zip file to proceed further .
 
 > A gesture recognition system using MPU6050 accelerometer/gyroscope sensor with Arduino Uno/ESP32, powered by TensorFlow Lite for machine learning-based gesture classification.
 
-**Project Year:** 2022
+**Project Year:** 2024
+
+---
+
+## 👥 Contributors
+
+### Project Team
+
+- **[Shaik Abdus Sattar (Seventie)](https://github.com/Seventie)** - Project Lead & Development
+- **[Sanhitha A C](https://github.com/sanhithaac)** - Contributor
+
+---
+
+## 🎬 Demo
+
+[📹 Watch Demo Video](./Demo.mp4)
+
+*Click above to watch the gesture-controlled mouse in action!*
 
 ---
 
 ## 📋 Table of Contents
 
-- [Overview](#overview)
-- [Features](#features)
-- [Hardware Requirements](#hardware-requirements)
-- [Software Requirements](#software-requirements)
-- [Project Structure](#project-structure)
-- [Installation](#installation)
-- [Usage](#usage)
-- [How It Works](#how-it-works)
-- [Dataset and Training](#dataset-and-training)
-- [Contributors](#contributors)
-- [License](#license)
+- [Demo](#-demo)
+- [Contributors](#-contributors)
+- [Overview](#-overview)
+- [Features](#-features)
+- [Hardware Requirements](#-hardware-requirements)
+- [Software Requirements](#-software-requirements)
+- [Project Structure](#-project-structure)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [How It Works](#-how-it-works)
+- [Dataset and Training](#-dataset-and-training)
+- [License](#-license)
+- [Acknowledgments](#-acknowledgments)
+- [Contact](#-contact)
+- [Future Enhancements](#-future-enhancements)
 
 ---
 
@@ -58,7 +51,7 @@ Please extract the zip file to proceed further .
 
 This project implements a **gesture-controlled mouse system** using motion sensors and machine learning. The MPU6050 sensor captures 6-axis motion data (accelerometer + gyroscope), which is then processed by a custom-trained TensorFlow Lite neural network model to recognize specific gestures. These gestures can be used to control mouse movements and other computer interactions.
 
-The project was developed in **2022** as an exploration of combining embedded systems with machine learning for intuitive human-computer interaction.
+The project was developed in **2024** as an exploration of combining embedded systems with machine learning for intuitive human-computer interaction.
 
 ---
 
@@ -389,5 +382,4 @@ For questions or collaboration:
 
 ---
 
-**Made with ❤️ and ⚡ in 2022**
->>>>>>> master
+**Made with ❤️ and ⚡ in 2024**
