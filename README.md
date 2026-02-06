@@ -21,9 +21,9 @@
 
 ## 🎬 Demo
 
-https://github.com/Seventie/Gesture-Controlled-Mouse-using-Arduino-Uno-and-MPU6050/assets/Demo.mp4
+[📹 Watch Demo Video](./Demo.mp4)
 
-*Watch the gesture-controlled mouse in action!*
+*Click above to watch the gesture-controlled mouse in action!*
 
 ---
 
